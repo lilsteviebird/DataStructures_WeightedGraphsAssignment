@@ -14,6 +14,10 @@
 		3F0C2FBA227B7093009B3C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C2FB9227B7093009B3C90 /* main.m */; };
 		3F0C2FC5227B7094009B3C90 /* WeightedGraphsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C2FC4227B7094009B3C90 /* WeightedGraphsTests.m */; };
 		3F0C2FD0227B7094009B3C90 /* WeightedGraphsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C2FCF227B7094009B3C90 /* WeightedGraphsUITests.m */; };
+		3F0C2FDE227B7206009B3C90 /* Heap.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C2FDD227B7206009B3C90 /* Heap.m */; };
+		3F0C2FE1227B760D009B3C90 /* NewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C2FE0227B760D009B3C90 /* NewNode.m */; };
+		3F6209A4229775720090E71A /* usa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3F6209A3229775720090E71A /* usa.txt */; };
+		3F7153DC2296214A002F2032 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7153DB2296214A002F2032 /* Graph.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,13 @@
 		3F0C2FCB227B7094009B3C90 /* WeightedGraphsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeightedGraphsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0C2FCF227B7094009B3C90 /* WeightedGraphsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeightedGraphsUITests.m; sourceTree = "<group>"; };
 		3F0C2FD1227B7094009B3C90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F0C2FDD227B7206009B3C90 /* Heap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Heap.m; sourceTree = "<group>"; };
+		3F0C2FDF227B7220009B3C90 /* Heap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heap.h; sourceTree = "<group>"; };
+		3F0C2FE0227B760D009B3C90 /* NewNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewNode.m; sourceTree = "<group>"; };
+		3F0C2FE2227B7617009B3C90 /* NewNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewNode.h; sourceTree = "<group>"; };
+		3F6209A3229775720090E71A /* usa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = usa.txt; sourceTree = "<group>"; };
+		3F7153DA2296214A002F2032 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
+		3F7153DB2296214A002F2032 /* Graph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +119,13 @@
 				3F0C2FB5227B7093009B3C90 /* Main.storyboard */,
 				3F0C2FB8227B7093009B3C90 /* Info.plist */,
 				3F0C2FB9227B7093009B3C90 /* main.m */,
+				3F0C2FE0227B760D009B3C90 /* NewNode.m */,
+				3F0C2FE2227B7617009B3C90 /* NewNode.h */,
+				3F0C2FDD227B7206009B3C90 /* Heap.m */,
+				3F0C2FDF227B7220009B3C90 /* Heap.h */,
+				3F7153DA2296214A002F2032 /* Graph.h */,
+				3F7153DB2296214A002F2032 /* Graph.m */,
+				3F6209A3229775720090E71A /* usa.txt */,
 				3F0C2FBB227B7093009B3C90 /* WeightedGraphs.entitlements */,
 			);
 			path = WeightedGraphs;
@@ -234,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6209A4229775720090E71A /* usa.txt in Resources */,
 				3F0C2FB4227B7093009B3C90 /* Assets.xcassets in Resources */,
 				3F0C2FB7227B7093009B3C90 /* Main.storyboard in Resources */,
 			);
@@ -260,9 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F7153DC2296214A002F2032 /* Graph.m in Sources */,
 				3F0C2FB2227B7088009B3C90 /* ViewController.m in Sources */,
 				3F0C2FBA227B7093009B3C90 /* main.m in Sources */,
 				3F0C2FAF227B7088009B3C90 /* AppDelegate.m in Sources */,
+				3F0C2FE1227B760D009B3C90 /* NewNode.m in Sources */,
+				3F0C2FDE227B7206009B3C90 /* Heap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

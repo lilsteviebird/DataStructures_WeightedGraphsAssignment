@@ -7,9 +7,11 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "Graph.h"
 
 @interface ViewController : NSViewController
 
+@property Graph *graph;
 
 @end
 
